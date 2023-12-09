@@ -38,6 +38,7 @@ const Home = () => {
           value={newTesk}
         />
         <TouchableOpacity
+          testID="addButton"
           activeOpacity={0.7}
           style={style.buttonCustom}
           onPress={handleAddNewTask}>
